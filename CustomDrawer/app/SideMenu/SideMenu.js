@@ -26,6 +26,16 @@ class SideMenu extends Component {
         </View>
         <ScrollView>
           <View>
+          <Text style={styles.sectionHeadingStyle}>
+              Nav To Camera App
+            </Text>
+            <View style={styles.navSectionStyle}>
+              <Text style={styles.navItemStyle} onPress={this.navigateToScreen('CamApp')}>
+                Camera
+              </Text>
+            </View>
+          </View>
+          <View>
             <Text style={styles.sectionHeadingStyle}>
               Fruits
             </Text>

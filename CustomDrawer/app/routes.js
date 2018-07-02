@@ -4,13 +4,13 @@ import SideMenu from './SideMenu/SideMenu';
 import { DrawerNavigator, StackNavigator } from 'react-navigation';
 import Item from './Page1/SectionListBasics';
 import ItemList from './Page1/ItemList';
+import CamApp from './camapp/CamAppPage';
 
 export const Stack = StackNavigator({
   ItemList: { screen: ItemList },
 }, {
     initialRouteName: 'ItemList',
-
-  })
+  });
 
 export default DrawerNavigator({
 
@@ -22,6 +22,9 @@ export default DrawerNavigator({
   },
   Page3: {
     screen: Page3
+  },
+  CamApp:{
+    screen: CamApp
   }
 }, {
     contentComponent: SideMenu,
