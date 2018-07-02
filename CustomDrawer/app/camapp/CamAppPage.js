@@ -9,7 +9,7 @@ import {
   Text,
   View
 } from 'react-native';
-import {CameraComponent} from './Camera-App.component';
+import CameraComponent from './Camera-App.component';
 class CamApp extends Component {
   render () {
     return (

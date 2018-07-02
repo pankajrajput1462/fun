@@ -1,4 +1,3 @@
-'use strict';
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -10,7 +9,7 @@ import {
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 
-export default class CameraComponent extends React.Component{
+class CameraComponent extends Component{
   
   render(){
     return(
@@ -67,3 +66,5 @@ const styles = StyleSheet.create({
     margin: 20
   }
 });
+
+export default CameraComponent;
